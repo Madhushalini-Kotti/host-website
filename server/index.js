@@ -25,7 +25,7 @@ db.connect();
 
 app.get('/', (req, res) => {
     res.send("<h1>Server running</h1>");
-})
+}) 
 
 app.get('/users', async (req, res) => {
 
